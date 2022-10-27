@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <script src="hashitjava.js" async></script> -->
+    <script src="index.js" defer></script>
+
+</head>
+<body>
+
+
+
+   <header class="header">
+        <nav class="container nav">
+            <h1 class="logo">website</h1>
+            <ul class="nav-items">
+                <li><a href="#">home</a></li>
+                <li><a href="#">todo</a></li>
+                <li><a href="#">sign up</a></li>
+            </ul>
+        </nav>
+        <div class="headline">
+            <h2 id="manage"> manage your task
+                <span style="display: none;">hello</span>
+            </h2>
+            <button class="btn btn-1" >learn more</button>
+        </div>
+    </header>
+    <section class="todo-section container">
+        <h2>your plan for today</h2>
+        
+        <form action="" class="form-todo">
+            <input type="text" name="" id="" placeholder="add todo">
+            <input type="submit" value="add-todo" class="btn">
+        </form>
+        <ul class="todo-list">
+            <li class="todo-first">
+                <span class="text"> do this do that</span>
+                <div class="todo-button">
+                    <button class="done todo-btn">Done</button>
+                    <button class="remove todo-btn">remone</button>
+                </div>
+            </li>
+           
+         
+        </ul>
+    </section>
+    <section class="section-sign-up container">
+        <h2>sign up</h2>
+        <form action="" class="sign-up">
+            <div class="form-group">
+               
+                <label for="username">username:</label>
+                <input type="text" id="username" name="username" >
+            </div>
+            <div class="form-group">
+               
+                <label for="passward">passward:</label>
+                <input type="passward" id="passward" name="passward" >
+            </div>
+            <div class="form-group">
+               
+                <label for="confirmpassward"> Confirm passward:</label>
+                <input type="password" id="confirmpassward" name="confirmpassward" >
+            </div>
+            <div class="form-group">
+               
+                <label for="Phone">Phone:</label>
+                <input type="text" id="Phone" name="Phone" >
+            </div>
+            <div class="form-group">
+               
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" >
+            </div>
+            <div class="form-group">
+               
+                <label for="about">about yourself:</label>
+                    <textarea name="about" id="about" cols="30" rows="10"></textarea>
+            </div>
+                <button type="submit" class="btn">submit</button>
+       
+        </form>
+    </section>
+  
+</body>
+</html>
